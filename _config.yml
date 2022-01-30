@@ -1,0 +1,19 @@
+# Site settings
+title: Prudento
+description: tbd
+
+#url: https://www.prudento.nl
+baseurl: /2022-prudento.nl.git
+
+# URL of your avatar
+avatar: https://www.prudento.nl/assets/logo/logo_200x67_blue.png
+favicon: https://www.prudento.nl/assets/icons/favicon.png
+domain: prudento.nl
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
