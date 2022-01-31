@@ -1,0 +1,13 @@
+<head>
+  <!-- ToDo: Het domein wordt ook weergegeven. Wil je dat? -->
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.domain }}</title>
+  <link rel="shortcut icon" type="image/png" href="{{ site.favicon }}" {% include meta.html %}
+
+
+  <!-- ToDo: Button voor scrollen naar boven; kan de css niet anders? -->
+      {% include top_button_head.html %}
+      {% include top_button_body.html %}
+
+      
+</head>
+  
